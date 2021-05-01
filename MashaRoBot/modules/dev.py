@@ -91,7 +91,7 @@ dispatcher.add_handler(GITPULL_HANDLER)
 dispatcher.add_handler(RESTART_HANDLER)
 
 __mod_name__ = "Dev"
-__help__'''
+__help__ = '''
 /leave <grp username> devs ke kaam ka h tu mt dekh
 /gitpull idk
 /reboot reboot tha bot
