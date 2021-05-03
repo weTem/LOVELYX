@@ -103,7 +103,7 @@ buttons = [
         InlineKeyboardButton(text="✨EMCEE WEB✨", url="https://emceeofficial.wordpress.com/emcee/"
 
     ),
-    ].    
+    ],    
 ]
 
 
