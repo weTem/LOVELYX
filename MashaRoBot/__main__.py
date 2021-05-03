@@ -85,26 +85,22 @@ buttons = [
             text="➕️ ADD EMCEE TO YOUR GROUP ➕️", url="t.me/Emcee_Bot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="ℹ️ ABOUT", callback_data="masha_"),
-        InlineKeyboardButton(text="📚 COMMANDS", callback_data="help_back"),
+        InlineKeyboardButton(text="ℹ️ABOUT", callback_data="masha_"),
+        InlineKeyboardButton(text="📚COMMANDS", callback_data="help_back"),
     ],
     [
         InlineKeyboardButton(
-            text="💾 SOURCE", url="t.me/DaisyXNews"),
+            text="✨EMCEE DEVS✨", url="t.me/EmceeDevs"),
         InlineKeyboardButton(
-            text="👥 SUPPORT", url="https://t.me/Emcee_Support"),
+            text="👥SUPPORT👥", url="https://t.me/Emcee_Support"),
     ],
     [  
-        InlineKeyboardButton(text="🇮🇳 EMCEE DEVS", url="t.me/EmceeDevs"
+        InlineKeyboardButton(text="❄️EMCEE WEB❄️", url="https://emceeofficial.wordpress.com/emcee/"
     ),
     ], 
-    [  
-
-        InlineKeyboardButton(text="✨EMCEE WEB✨", url="https://emceeofficial.wordpress.com/emcee/"
-
-    ),
-    ],    
+    
 ]
+
 
 
 HELP_STRINGS = """
