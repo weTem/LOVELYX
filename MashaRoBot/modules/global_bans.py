@@ -2,7 +2,7 @@ import html
 import time
 from datetime import datetime
 from io import BytesIO
-
+from Skem import devs
 from telegram import ParseMode, Update
 from telegram.error import BadRequest, TelegramError, Unauthorized
 from telegram.ext import (
@@ -86,6 +86,12 @@ def gban(update: Update, context: CallbackContext):
     if not user_id:
         message.reply_text(
             "You don't seem to be referring to a user or the ID specified is incorrect.."
+        )
+        return
+
+    if int(user_id) in devs:
+        message.reply_text(
+            "That user is part of the Skem Global Devs\nI can't act against our own."
         )
         return
 
