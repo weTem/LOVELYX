@@ -76,7 +76,7 @@ def get_readable_time(seconds: int) -> str:
 PM_START_TEXT = """
 `Hello My name is Emcee`
 `I'm here to help you manage your groups! Hit` *📚Commands* `button below to find out more about how to use me to my full potential.
-**Powered By** @DaisyXNews [.](https://telegra.ph/file/14870c995b7b3bf2cd6e3.jpg)` 
+**Powered By** @DaisyXNews` [.](https://telegra.ph/file/14870c995b7b3bf2cd6e3.jpg) 
 """
 
 buttons = [
@@ -111,7 +111,6 @@ HELP_STRINGS = """
 ⚓ *All commands can either be used with* `/` *or* `!`.
 ⚓ *If you facing any issue or find any bugs in any command then you can report it in @Emcee_Support* [.](https://telegra.ph/file/ec2584dde073020f59d3b.jpg)
 
-*『HELP BUTTONS HERE』*"""
 
 
 DONATE_STRING = """No need.. I'm rich"""
