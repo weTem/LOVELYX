@@ -74,9 +74,9 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-`Hello My name is` [Emcee](https://telegra.ph/file/3b9b972c07be0b5573354.jpg) 
+`Hello My name is Emcee`
 `I'm here to help you manage your groups! Hit` *📚Commands* `button below to find out more about how to use me to my full potential.
-**Powered By** @DaisyXNews.` 
+**Powered By** @DaisyXNews[.](https://telegra.ph/file/14870c995b7b3bf2cd6e3.jpg)` 
 """
 
 buttons = [
@@ -95,7 +95,7 @@ buttons = [
             text="👥SUPPORT👥", url="https://t.me/Emcee_Support"),
     ],
     [  
-        InlineKeyboardButton(text="❄️EMCEE WEB❄️", url="https://emceeofficial.wordpress.com/emcee/"
+        InlineKeyboardButton(text="❄️EMCEE WEB❄️", url="https://emcee.art.blog/"
     ),
     ], 
     
@@ -104,6 +104,13 @@ buttons = [
 
 
 HELP_STRINGS = """
+✨*EMCEE comes with many special features in it*✨
+❄️*CHECK ALL BUTTON BELOW TO EXPLORE EVERY COMMANDS OF EMCEE*❄️
+
+
+⚓ *All commands can either be used with* `/` *or* `!`.
+⚓ *If you facing any issue or find any bugs in any command then you can report it in @Emcee_Support* [.](https://telegra.ph/file/ec2584dde073020f59d3b.jpg)
+
 *『HELP BUTTONS HERE』*"""
 
 
