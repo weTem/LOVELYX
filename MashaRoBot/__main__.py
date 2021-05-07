@@ -109,7 +109,7 @@ HELP_STRINGS = """
 
 
 ⚓ *All commands can either be used with* `/` *or* `!`.
-⚓ *If you facing any issue or find any bugs in any command then you can report it in @Emcee_Support* [.](https://telegra.ph/file/ec2584dde073020f59d3b.jpg)
+⚓ *If you facing any issue or find any bugs in any command then you can report it in:* @Emcee_Support [.](https://telegra.ph/file/ec2584dde073020f59d3b.jpg)
 
 *『HELP BUTTONS HERE』*"""
 
