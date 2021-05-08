@@ -75,9 +75,7 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 • 𝙷𝙴𝚈 , 𝙷𝙸 𝙸 𝙰𝙼 𝙴𝙼𝙲𝙴𝙴 !  𝙸 𝙰𝙼 𝙰𝙽 𝙰𝙽𝙸𝙼𝙴 𝚃𝙷𝙴𝙼𝙴𝙳 𝙶𝚁𝙾𝚄𝙿 𝙼𝙰𝙽𝙰𝙶𝙴𝙼𝙴𝙽𝚃 𝙱𝙾𝚃 •
-
 •𝐅𝐑𝐄𝐄𝐋𝐘  𝐀𝐃𝐃 𝐌𝐄 𝐓𝐎 𝐘𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏𝐒.•
-
 𝙹𝚄𝚂𝚃 𝙲𝙻𝙸𝙲𝙺 𝙾𝙽 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙱𝚄𝚃𝚃𝙾𝙽 𝙱𝙴𝙻𝙾𝚆 𝚃𝙾 𝙴𝚇𝙿𝙻𝙾𝚁𝙴 𝙼𝙾𝚁𝙴 𝙰𝙱𝙾𝚄𝚃 𝙼𝙴.
 **Powered By** @DaisyXNews` [.](https://telegra.ph/file/14870c995b7b3bf2cd6e3.jpg) 
 """
