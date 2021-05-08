@@ -74,11 +74,11 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-`|• ʜᴇʏ , ʜɪ ɪ ᴀᴍ ᴇᴍᴄᴇᴇ !  ɪ ᴀᴍ ᴀɴ ᴀɴɪᴍᴇ ᴛʜᴇᴍᴇᴅ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ •|`
+|• ʜᴇʏ , ʜɪ ɪ ᴀᴍ ᴇᴍᴄᴇᴇ !  ɪ ᴀᴍ ᴀɴ ᴀɴɪᴍᴇ ᴛʜᴇᴍᴇᴅ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ •|
 
-`[•ғʀᴇᴇʟʏ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ•]`
+[•ғʀᴇᴇʟʏ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ•]
 
-`ᴊᴜsᴛ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʜᴇʟᴘ ʙᴜᴛᴛᴏɴ ᴛᴏ ᴇxᴘʟᴏʀᴇ ᴍᴏʀᴇ ᴀʙᴏᴜᴛ ᴍᴇ.`
+ᴊᴜsᴛ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʜᴇʟᴘ ʙᴜᴛᴛᴏɴ ᴛᴏ ᴇxᴘʟᴏʀᴇ ᴍᴏʀᴇ ᴀʙᴏᴜᴛ ᴍᴇ.
 
 **Powered By** @DaisyXNews` [.](https://telegra.ph/file/14870c995b7b3bf2cd6e3.jpg) 
 """
@@ -108,11 +108,11 @@ buttons = [
 
 
 HELP_STRINGS = """
-✨*EMCEE comes with many special features in it*✨
-❄️*CHECK ALL BUTTON BELOW TO EXPLORE EVERY COMMANDS OF EMCEE*❄️
+༆*EMCEE comes with many special features in it*༆
+꧁*CHECK ALL BUTTON BELOW TO EXPLORE EVERY COMMANDS OF EMCEE*꧂
 
-⚓ *All commands can either be used with* `/` *or* `!`.
-⚓ *If you facing any issue or find any bugs in any command then you can report it in @Emcee_Support* [.](https://telegra.ph/file/073b380cf13052e500490.jpg)
+𖣘 *All commands can either be used with* `/` *or* `!`.
+𖣘 *If you facing any issue or find any bugs in any command then you can report it in @Emcee_Support* [.](https://telegra.ph/file/073b380cf13052e500490.jpg)
 """
 
 
