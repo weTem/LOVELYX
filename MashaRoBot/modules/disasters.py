@@ -678,7 +678,7 @@ dispatcher.add_handler(SUPPORTLIST_HANDLER)
 dispatcher.add_handler(SUDOLIST_HANDLER)
 dispatcher.add_handler(DEVLIST_HANDLER)
 
-__mod_name__ = "ACCESS LEVELS"
+__mod_name__ = "BOT ACCESS"
 __handlers__ = [
     SUDO_HANDLER,
     SUPPORT_HANDLER,
