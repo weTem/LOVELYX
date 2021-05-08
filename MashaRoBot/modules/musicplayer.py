@@ -1,23 +1,53 @@
-__mod_name__ = "MusicPlayer"
+# Copyright (C) 2021 TeamDaisyX
+
+
+# This file is part of Daisy (Telegram Bot)
+
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU Affero General Public License as
+# published by the Free Software Foundation, either version 3 of the
+# License, or (at your option) any later version.
+
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU Affero General Public License for more details.
+
+# You should have received a copy of the GNU Affero General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+__mod_name__ = "Music Player"
 __help__ = """
-MUSIC PLAYER 
-Music player which helps you to plays music in your group's voice chat
-
- Setting up
-1) Add @Emcee_Assistant to your group
-2) Make bot admin
-3) Start a voice chat
-
- Commands 
-- /play [link/ reply: mp3 file or yt link] : Play/Add to queue of given song
-- /pause : Pause music play (Admin only)
-- /skip : Skips current song (Admin only)
-- /end : End the music play (Admin only)
--/search : To search a particular song on youtube
-
-
-
-‼️‼️ PLEASE NOTE THIS IS HEAVILY UNSTABLE AND CAN BE STOPPED ANYTIME ‼️‼️
+          <b>》** EMCEEVCPLAYER ** 《</b>
+            
+ EMCEEVCPLAYER plays music in your group's voice chat
+ 
+ Assistant name >> @Emcee_VC_Assistant
+ 
+<b> Setting up </b>
+1) Make bot admin
+2) Start a voice chat
+3) Try `/play [song name]` for the first time by an admin
+*) If userbot joined enjoy music, If not add @Emcee_VC_Assistant to your group and retry
+<b> Commands </b>
+=>> Song Playing 🎶
+  /play: Play song using youtube music
+  /play [yt url] : Play the given yt url
+  /dplay: Play song via deezer
+  /splay: Play song via jio saavn
+  
+=>> Playback ⏯
+  /player: Open Settings menu of player
+  /skip: Skips the current track
+  /pause: Pause track
+  /resume: Resumes the paused track
+  /end: Stops media playback
+  /current: Shows the current Playing track
+  /playlist: Shows playlist
+=>> More tools 📲
+  /admincache: Updates admin info of your group. Try if bot isn't recognize admin
+  /userbotjoin: Invite @Emcee_VC_Assistant Userbot to your chat
+*Player cmd and all other cmds except /play, /current  and /playlist  are only for admins with manage group
+<b> PLEASE NOTE THIS SERVICE IS UNSTABLE AND CAN BE STOPPED ANYTIME </b>
 """
-
 
