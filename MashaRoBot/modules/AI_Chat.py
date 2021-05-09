@@ -43,7 +43,7 @@ daisyx = Client(
     sleep_threshold=5,
 )
 
-from MashaRobot import db as db_x
+from MashaRoBot import db as db_x
 
 lydia = db_x["CAHTBOT"]
 
