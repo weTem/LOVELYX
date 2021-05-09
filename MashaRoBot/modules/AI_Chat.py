@@ -21,16 +21,29 @@ import emoji
 IBM_WATSON_CRED_URL = "https://api.us-south.speech-to-text.watson.cloud.ibm.com/instances/bd6b59ba-3134-4dd4-aff2-49a79641ea15"
 IBM_WATSON_CRED_PASSWORD = "UQ1MtTzZhEsMGK094klnfa-7y_4MCpJY1yhd52MXOo3Y"
 url = "https://acobot-brainshop-ai-v1.p.rapidapi.com/get"
-import re
+import re, os
 
 import aiohttp
 from google_trans_new import google_translator
-from pyrogram import filters
+from pyrogram import filters, Client
 
 from MashaRoBot import BOT_ID
 from MashaRobBot.db.mongo_helpers.aichat import add_chat, get_session, remove_chat
 from MashaRoBot.function.pluginhelpers import admins_only, edit_or_reply
-from MashaRoBot.services.pyrogram import pbot as daisyx
+
+TOKEN = os.environ.get("TOKEN")
+APP_ID = os.environ.get("APP_ID")
+APP_HASH = os.environ("APP_HASH")
+session_name = TOKEN.split(":")[0]
+daisyx = Client(
+    session_name,
+    api_id=APP_ID,
+    api_hash=APP_HASH,
+    bot_token=TOKEN,
+    workers=3,
+    sleep_threshold=5,
+)
+
 
 translator = google_translator()
 import requests
