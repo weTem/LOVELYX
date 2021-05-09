@@ -31,8 +31,8 @@ from MashaRoBot import BOT_ID, OWNER_ID
 from typing import Callable, Coroutine, Dict, List, Tuple, Union
 
 TOKEN = os.environ.get("TOKEN")
-APP_ID = os.environ.get("APP_ID")
-APP_HASH = os.environ.get("APP_HASH")
+APP_ID = os.environ.get("API_ID")
+APP_HASH = os.environ.get("API_HASH")
 session_name = TOKEN.split(":")[0]
 daisyx = Client(
     session_name,
