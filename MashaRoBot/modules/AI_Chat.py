@@ -29,7 +29,6 @@ from pyrogram import filters, Client
 
 from MashaRoBot import BOT_ID, OWNER_ID
 from MashaRobBot.db.mongo_helpers.aichat import add_chat, get_session, remove_chat
-from MashaRoBot.function.pluginhelpers import admins_only, edit_or_reply
 from typing import Callable, Coroutine, Dict, List, Tuple, Union
 
 TOKEN = os.environ.get("TOKEN")
