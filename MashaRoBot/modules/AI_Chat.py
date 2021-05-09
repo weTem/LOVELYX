@@ -27,9 +27,10 @@ import aiohttp
 from google_trans_new import google_translator
 from pyrogram import filters, Client
 
-from MashaRoBot import BOT_ID
+from MashaRoBot import BOT_ID, OWNER_ID
 from MashaRobBot.db.mongo_helpers.aichat import add_chat, get_session, remove_chat
 from MashaRoBot.function.pluginhelpers import admins_only, edit_or_reply
+from typing import Callable, Coroutine, Dict, List, Tuple, Union
 
 TOKEN = os.environ.get("TOKEN")
 APP_ID = os.environ.get("APP_ID")
@@ -43,6 +44,26 @@ daisyx = Client(
     workers=3,
     sleep_threshold=5,
 )
+
+def admins_only(func: Callable) -> Coroutine:
+    async def wrapper(client: Client, message: Message):
+        if message.from_user.id == OWNER_ID:
+            return await func(client, message)
+        admins = await get_administrators(message.chat)
+        for admin in admins:
+            if admin.id == message.from_user.id:
+                return await func(client, message)
+
+    return wrapper
+async def edit_or_reply(message, text, parse_mode="md"):
+    if message.from_user.id:
+        if message.reply_to_message:
+            kk = message.reply_to_message.message_id
+            return await message.reply_text(
+                text, reply_to_message_id=kk, parse_mode=parse_mode
+            )
+        return await message.reply_text(text, parse_mode=parse_mode)
+    return await message.edit(text, parse_mode=parse_mode)
 
 
 translator = google_translator()
