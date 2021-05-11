@@ -1,4 +1,4 @@
-from MashaRobot import MONGO_DB_URI
+from MashaRoBot import MONGO_DB_URI
 from pymongo import MongoClient
 from typing import Dict, List, Union
 
