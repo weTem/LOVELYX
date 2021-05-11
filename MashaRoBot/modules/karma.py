@@ -1,7 +1,7 @@
-from MashaRobot import pbot
-from MashaRobot.utils.dbfunctions import (update_karma, get_karma, get_karmas,
+from MashaRoBot import pbot
+from MashaRoBot.utils.dbfunctions import (update_karma, get_karma, get_karmas,
                                    int_to_alpha, alpha_to_int)
-from MahsaRobot.utils.filter_groups import karma_positive_group, karma_negative_group
+from MahsaRoBot.utils.filter_groups import karma_positive_group, karma_negative_group
 from pyrogram import filters
 
 __MODULE__ = "Karma"
