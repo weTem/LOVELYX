@@ -15,7 +15,7 @@ regex_upvote = r"^((?i)\+|\+\+|\+1|thank you|👍)$"
 regex_downvote = r"^(\-|\-\-|\-1|👎)$"
 
 
-@pgram.on_message(
+@pbot.on_message(
     filters.text
     & filters.group
     & filters.incoming
