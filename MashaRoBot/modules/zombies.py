@@ -7,6 +7,7 @@ from telethon.tl.functions.channels import EditBannedRequest
 from telethon.tl.types import ChatBannedRights, ChannelParticipantsAdmins
 
 from MashaRoBot import telethn, OWNER_ID, DEV_USERS, DRAGONS, DEMONS
+from MashaRoBot.events import register
 
 # =================== CONSTANT ===================
 
