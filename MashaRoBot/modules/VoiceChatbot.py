@@ -36,10 +36,10 @@ async def Lycia(_, message):
     lycia = text.replace(" ", "%20")
     m = await message.reply_text("Emcee Is Best...")
     try:
-        L = await fetch(f"https://api.affiliateplus.xyz/api/chatbot?message={lycia}&botname=Asuna&ownername=Pranav&user=1")
+        L = await fetch(f"https://api.affiliateplus.xyz/api/chatbot?message={lycia}&botname=Emcee&ownername=Pranav&user=1")
         chatbot = L["message"]
         VoiceAi = f"https://lyciavoice.herokuapp.com/lycia?text={chatbot}&lang=hi"
-        name = "asuna"
+        name = "emcee"
     except Exception as e:
         await m.edit(str(e))
         return
