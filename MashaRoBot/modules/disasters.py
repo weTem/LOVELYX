@@ -572,7 +572,6 @@ Group admins/group owners do not need these commands.
  ❍ /pingall*:* gets all listed ping times
 
 *Broadcast: (Bot owner only)*
-*Note:* This supports basic markdown
  ❍ /broadcastall*:* Broadcasts everywhere
  ❍ /broadcastusers*:* Broadcasts too all users
  ❍ /broadcastgroups*:* Broadcasts too all groups
@@ -632,12 +631,10 @@ Group admins/group owners do not need these commands.
  ❍ /ungignoreblue*:* <word>*:* Remove said command from global cleaning list
 
 *Emcee Core*
-*Owner only*
  ❍ /send*:* <module name>*:* Send module
  ❍ /install*:* <reply to a .py>*:* Install module 
 
 *Heroku Settings*
-*Owner only*
  ❍ /usage*:* Check your heroku dyno hours remaining.
  ❍ /see var <var>*:* Get your existing varibles, use it only on your private group!
  ❍ /set var <newvar> <vavariable>*:* Add new variable or update existing value variable.
