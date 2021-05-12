@@ -556,90 +556,89 @@ Commands listed here only work for users with special access are mainly used for
 Group admins/group owners do not need these commands. 
 
 *List all special users:*
- ❍ /legends*:* Lists all Legend disasters
- ❍ /satans*:* Lists all satan disasters
- ❍ /monsters*:* Lists all Monster disasters
- ❍ /immortals*:* Lists all Immortal disasters
- ❍ /powerhouse*:* Lists all Emcee powerhouse members
- ❍ /addlegend*:* Adds a user to Legend
- ❍ /addsatan*:* Adds a user to Satan
- ❍ /addmonster*:* Adds a user to Monster
- ❍ /addimmortal*:* Adds a user to Immortal
+ ❍ `/legends`*:* Lists all Legend disasters
+ ❍ `/satans`*:* Lists all satan disasters
+ ❍ `/monsters`*:* Lists all Monster disasters
+ ❍ `/immortals`*:* Lists all Immortal disasters
+ ❍ `/powerhouse`*:* Lists all Emcee powerhouse members
+ ❍ `/addlegend`*:* Adds a user to Legend
+ ❍ `/addsatan`*:* Adds a user to Satan
+ ❍ `/addmonster`*:* Adds a user to Monster
+ ❍ `/addimmortal`*:* Adds a user to Immortal
  ❍ `Add dev doesnt exist, devs should know how to add themselves`
 
 *Ping:*
- ❍ /ping*:* gets ping time of bot to telegram server
- ❍ /pingall*:* gets all listed ping times
+ ❍ `/ping`*:* gets ping time of bot to telegram server
+ ❍ `/pingall`*:* gets all listed ping times
 
 *Broadcast: (Bot owner only)*
- ❍ /broadcastall*:* Broadcasts everywhere
- ❍ /broadcastusers*:* Broadcasts too all users
- ❍ /broadcastgroups*:* Broadcasts too all groups
+ ❍ `/broadcastall`*:* Broadcasts everywhere
+ ❍ `/broadcastusers`*:* Broadcasts too all users
+ ❍ `/broadcastgroups`*:* Broadcasts too all groups
 
 *Groups Info:*
- ❍ /groups*:* List the groups with Name, ID, members count as a txt
- ❍ /leave <ID>*:* Leave the group, ID must have hyphen
- ❍ /stats*:* Shows overall bot stats
- ❍ /getchats*:* Gets a list of group names the user has been seen in. Bot owner only
- ❍ /ginfo username/link/ID*:* Pulls info panel for entire group
+ ❍ `/groups`*:* List the groups with Name, ID, members count as a txt
+ ❍ `/leave <ID>`*:* Leave the group, ID must have hyphen
+ ❍ `/stats`*:* Shows overall bot stats
+ ❍ `/getchats`*:* Gets a list of group names the user has been seen in. Bot owner only
+ ❍ `/ginfo username/link/ID`*:* Pulls info panel for entire group
 
 *Access control:* 
- ❍ /ignore*:* Blacklists a user from using the bot entirely
- ❍ /lockdown <off/on>*:* Toggles bot adding to groups
- ❍ /notice*:* Removes user from blacklist
- ❍ /ignoredlist*:* Lists ignored users
+ ❍ `/ignore`*:* Blacklists a user from using the bot entirely
+ ❍ `/lockdown <off/on>`*:* Toggles bot adding to groups
+ ❍ `/notice`*:* Removes user from blacklist
+ ❍ `/ignoredlist`*:* Lists ignored users
 
 *Speedtest:*
- ❍ /speedtest*:* Runs a speedtest and gives you 2 options to choose from, text or image output
+ ❍ `/speedtest`*:* Runs a speedtest and gives you 2 options to choose from, text or image output
 
 *Module loading:*
- ❍ /listmodules*:* Lists names of all modules
- ❍ /load modulename*:* Loads the said module to memory without restarting.
- ❍ /unload modulename*:* Loads the said module frommemory without restarting memory without restarting the bot 
+ ❍ `/listmodules`*:* Lists names of all modules
+ ❍ `/load modulename`*:* Loads the said module to memory without restarting.
+ ❍ `/unload modulename`*:* Loads the said module frommemory without restarting memory without restarting the bot 
 
 *Remote commands:*
- ❍ /rban*:* user group*:* Remote ban
- ❍ /runban*:* user group*:* Remote un-ban
- ❍ /rpunch*:* user group*:* Remote punch
- ❍ /rmute*:* user group*:* Remote mute
- ❍ /runmute*:* user group*:* Remote un-mute
+ ❍ `/rban`*:* user group*:* Remote ban
+ ❍ `/runban`*:* user group*:* Remote un-ban
+ ❍ `/rpunch`*:* user group*:* Remote punch
+ ❍ `/rmute`*:* user group*:* Remote mute
+ ❍ `/runmute`*:* user group*:* Remote un-mute
 
 *Windows self hosted only:*
- ❍ /reboot*:* Restarts the bots service
- ❍ /gitpull*:* Pulls the repo and then restarts the bots service
+ ❍ `/reboot`*:* Restarts the bots service
+ ❍ `/gitpull`*:* Pulls the repo and then restarts the bots service
 
 *Chatbot:* 
- ❍ /listaichats*:* Lists the chats the chatmode is enabled in
+ ❍ `/listaichats`*:* Lists the chats the chatmode is enabled in
  
 *Debugging and Shell:* 
- ❍ /debug <on/off>*:* Logs commands to updates.txt
- ❍ /logs*:* Run this in support group to get logs in pm
- ❍ /eval*:* Self explanatory
- ❍ /sh*:* Runs shell command
- ❍ /shell*:* Runs shell command
- ❍ /clearlocals*:* As the name goes
- ❍ /dbcleanup*:* Removes deleted accs and groups from db
- ❍ /py*:* Runs python code
- 
-*Global Bans:*
- ❍ /gban <id> <reason>*:* Gbans the user, works by reply too
- ❍ /ungban*:* Ungbans the user, same usage as gban
- ❍ /gbanlist*:* Outputs a list of gbanned users
+ ❍ `/debug <on/off>`*:* Logs commands to updates.txt
+ ❍ `/logs`*:* Run this in support group to get logs in pm
+ ❍ `/eval`*:* Self explanatory
+ ❍ `/sh`*:* Runs shell command
+ ❍ `/shell`*:* Runs shell command
+ ❍ `/clearlocals`*:* As the name goes
+ ❍ `/dbcleanup`*:* Removes deleted accs and groups from db
+ ❍ `/py`*:* Runs python code
+ Bans:*
+ ❍ `/gban <id> <reason>`*:* Gbans the user, works by reply too
+ ❍ `/ungban`*:* Ungbans the user, same usage as gban
+ ❍ `/gbanlist`*:* Outputs a list of gbanned users
 
 *Global Blue Text*
- ❍ /gignoreblue*:* <word>*:* Globally ignorea bluetext cleaning of saved word across Emcee Bot.
- ❍ /ungignoreblue*:* <word>*:* Remove said command from global cleaning list
+ ❍ `/gignoreblue`*:* <word>*:* Globally ignorea bluetext cleaning of saved word across Emcee Bot.
+ ❍ `/ungignoreblue`*:* <word>*:* Remove said command from global cleaning list
 
 *Emcee Core*
- ❍ /send*:* <module name>*:* Send module
- ❍ /install*:* <reply to a .py>*:* Install module 
+ ❍ `/send`*:* <module name>*:* Send module
+ ❍ `/install`*:* <reply to a .py>*:* Install module 
 
 *Heroku Settings*
- ❍ /usage*:* Check your heroku dyno hours remaining.
- ❍ /see var <var>*:* Get your existing varibles, use it only on your private group!
- ❍ /set var <newvar> <vavariable>*:* Add new variable or update existing value variable.
- ❍ /del var <var>*:* Delete existing variable.
- ❍ /logs Get heroku dyno logs.
+ ❍ `/usage`*:* Check your heroku dyno hours remaining.
+ ❍ `/see var <var>`*:* Get your existing varibles, use it only on your private group!
+ ❍ `/set var <newvar> <vavariable>`*:* Add new variable or update existing value variable.
+ ❍ `/del var <var>`*:* Delete existing variable.
+ ❍ `/logs`*:* Get heroku dyno logs.
 
 `⚠️ Read from top`
 Visit @{SUPPORT_CHAT} for more information.
