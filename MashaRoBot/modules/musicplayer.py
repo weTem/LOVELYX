@@ -22,7 +22,7 @@ __help__ = """
             
  EMCEEVCPLAYER plays music in your group's voice chat
  
- Assistant name >> @Emcee_Assistant_VC
+ Assistant name >> ꧁ @Emcee_Assistant_VC ꧂
  
 <b> Setting up </b>
 1) Make bot admin
