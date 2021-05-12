@@ -74,15 +74,15 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-`𝙷𝙴𝚈,𝙷𝙸𝙸 𝙸 𝙰𝙼 𝙴𝙼𝙲𝙴𝙴`
+`𝙷𝙴𝚈,𝙷𝙸𝙸 𝙸 𝙰𝙼 NICKY`
 `𝙸'𝙰𝙼 𝙰𝙽 𝙰𝙽𝙸𝙼𝙴 𝚃𝙷𝙴𝙼𝙴𝙳 𝙶𝚁𝙾𝚄𝙿 𝙼𝙰𝙽𝙰𝙶𝙸𝙽𝙶 𝙱𝙾𝚃! 𝙲𝙻𝙸𝙲𝙺` *📚𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂* `𝙱𝚄𝚃𝚃𝙾𝙽 𝙱𝙴𝙻𝙾𝚆 𝚃𝙾 𝙴𝚇𝙿𝙻𝙾𝚁𝙴 𝙼𝙾𝚁𝙴 𝙰𝙱𝙾𝚄𝚃 𝙼𝙴 𝙰𝙽𝙳 𝙼𝚈 𝙵𝚄𝙽𝙲𝚃𝙸𝙾𝙽𝚂.
-**Powered By** @DaisyXNews` [.](https://telegra.ph/file/14870c995b7b3bf2cd6e3.jpg) 
+**DEVELOPED By** 𝙰𝙶𝙰𝚂𝚃𝚈` [.]https://telegra.ph/file/1818e849ce48d428235bb.jpg) 
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ADD EMCEE TO YOUR GROUP ➕️", url="t.me/Emcee_Bot?startgroup=true"),
+            text="➕️ ADD NICKY TO YOUR GROUP ➕️", url="t.me/nicky_robot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="ℹ️ABOUT", callback_data="masha_"),
@@ -92,7 +92,7 @@ buttons = [
         InlineKeyboardButton(
             text="✨EMCEE DEVS✨", url="t.me/EmceeDevs"),
         InlineKeyboardButton(
-            text="👥SUPPORT👥", url="https://t.me/Emcee_Support"),
+            text="👥SUPPORT👥", url="https://t.me/official_friendship"),
     ],
     [  
         InlineKeyboardButton(text="❄️EMCEE WEB❄️", url="https://emcee.art.blog/"
@@ -104,11 +104,11 @@ buttons = [
 
 
 HELP_STRINGS = """
-༆*EMCEE comes with many special features in it*༆
-꧁*CHECK ALL BUTTON BELOW TO EXPLORE EVERY COMMANDS OF EMCEE*꧂
+༆*Nicky comes with many special features in it*༆
+꧁*CHECK ALL BUTTON BELOW TO EXPLORE EVERY COMMANDS OF Nicky*꧂
 
 𖣘 *All commands can either be used with* `/` *or* `!`.
-𖣘 *If you facing any issue or find any bugs in any command then you can report it in @Emcee_Support* [.](https://telegra.ph/file/073b380cf13052e500490.jpg)
+𖣘 *If you facing any issue or find any bugs in any command then you can report it in @official_friendship* [.](https://telegra.ph/file/1818e849ce48d428235bb.jpg)
 """
 
 
@@ -357,7 +357,7 @@ def Masha_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "masha_":
         query.message.edit_text(
-            text=""" ℹ️ I'm *EMCEE*, a powerful group management bot built to help you manage your group easily.
+            text=""" ℹ️ I'm *Nicky*, a powerful group management bot built to help you manage your group easily.
                  ❍ I can restrict users.
                  ❍ I can greet users with customizable welcome messages and even set a group's rules.
                  ❍ I have an advanced anti-flood system.
@@ -366,7 +366,7 @@ def Masha_about_callback(update: Update, context: CallbackContext):
                  ❍ I check for admins' permissions before executing any command and more stuffs
                  \n_Masha's licensed under the GNU General Public License v3.0_
                  Here is the [💾Repository](https://t.me/DaisyXNews).
-                 If you have any question about Emcee, let us know at @Emceesupport.""",
+                 If you have any question about nicky, let us know at @official_friendship.""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -392,7 +392,7 @@ def Source_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..🤗 I'm *Emcee*
+            text=""" Hi..🤗 I'm *Micky*
                  \nHere is the [Source Code](https://t.me/DaisyXNews) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=False,
