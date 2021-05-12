@@ -5,6 +5,7 @@
 from gogoanimeapi import gogoanime as anime
 from telethon import types, Button, events
 from MashaRoBot import telethn as GogoAnime
+from MashaRoBot.events import register
 
 @GogoAnime.on(events.NewMessage(pattern="^/gogo ?(.*)"))
 async def gogo(event):
