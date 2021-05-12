@@ -120,7 +120,7 @@ def log_user(update: Update, context: CallbackContext):
 
 
 @run_async
-@sudo_plus
+@dev_plus
 def chats(update: Update, context: CallbackContext):
     all_chats = sql.get_all_chats() or []
     chatfile = "List of chats.\n0. Chat name | Chat ID | Members count\n"
