@@ -114,4 +114,4 @@ Emcee can protect your group from NSFW senders
  ❍ /rmnsfw*:* Removes The Group From nsfw Watch List
 """
 
-__mod_name__ = "NSFW"
+__mod_name__ = "NSFW WATCH"
