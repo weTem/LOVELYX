@@ -3,7 +3,7 @@ import aiohttp
 import emoji
 import requests
 import re
-from MashaRobot import pbot as LYCIA
+from MashaRoBot import pbot as LYCIA
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from pyrogram import Client, filters
 from google_trans_new import google_translator
