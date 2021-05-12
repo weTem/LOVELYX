@@ -1,9 +1,9 @@
 import html
 import random
-import GabiBraunRobot.modules.truth_and_dare_string as truth_and_dare_string
-from GabiBraunRobot import dispatcher
+import MashaRoBot.modules.truth_and_dare_string as truth_and_dare_string
+from MashaRoBot import dispatcher
 from telegram import ParseMode, Update, Bot
-from GabiBraunRobot.modules.disable import DisableAbleCommandHandler
+from MashaRoBot.modules.disable import DisableAbleCommandHandler
 from telegram.ext import CallbackContext, run_async
 
 @run_async
