@@ -23,6 +23,7 @@ from MashaRoBot.modules.log_channel import gloggable
 from telegram import ParseMode, TelegramError, Update
 from telegram.ext import CallbackContext, CommandHandler, run_async
 from telegram.utils.helpers import mention_html
+from MashaRoBot.events import register
 
 ELEVATED_USERS_FILE = os.path.join(os.getcwd(), "MashaRoBot/elevated_users.json")
 
