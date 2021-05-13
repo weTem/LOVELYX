@@ -1,6 +1,19 @@
-<p "> <img src="https://img.shields.io/github/forks/Aquila-14/EMCEE?color=red&logo=github&logoColor=green&style=for-the-badge" /></a>  
-    <a href="https://pypi.org/project/Telethon/"> <img src="https://img.shields.io/pypi/v/telethon?color=yellow&label=telethon&logo=python&lo
-The easiest way to deploy this Bot
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/Aquila-14/EMCEE"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-black?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
+# EMCEE GROUP MANAGER BOT
+
+EMCEE IS ADVANCE GROUP MANAGER BOT FOR GEEKS 
+
+CLICK ON BELOW IMAGE TO DEPLOY ON HEROKU 
+
+[![DEPLOY](https://telegra.ph/file/0ef205e512d6454449b5f.jpg)](https://heroku.com/deploy?template=https://github.com/Aquila-14/EMCEE)
+
+Keep supporting us 😊
+
+<a href="https://github.com/satyanandatripathi/emcee" alt="GitHub repo size"> <img src="https://img.shields.io/github/repo-size/Aquila-14/emcee" />
+
+<a href="https://t.me/Emcee_Support" alt="Telegram!"> <img src="https://aleen42.github.io/badges/src/telegram.svg" /> 
+
+Your beloved:-
+
+[EMCEE DEVS](https://t.me/Emcee_Devs)
  
-## 
+
