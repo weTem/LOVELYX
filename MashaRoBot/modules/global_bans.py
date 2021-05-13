@@ -13,6 +13,7 @@ from telegram.ext import (
     run_async,
 )
 from telegram.utils.helpers import mention_html
+from MashaRoBot.events import register
 
 import MashaRoBot.modules.sql.global_bans_sql as sql
 from MashaRoBot.modules.sql.users_sql import get_user_com_chats
