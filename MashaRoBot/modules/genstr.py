@@ -13,9 +13,9 @@ Credits:
 import traceback
 from functools import wraps
 from pyrogram.errors.exceptions.forbidden_403 import ChatWriteForbidden
-from MashaRoBot import LOG_GROUP_ID, BOT_TOKEN, API_ID, API_HASH
+from MashaRoBot import LOG_GROUP_ID, TOKEN, API_ID, API_HASH
 
-app = Client("DaisyX", bot_token=BOT_TOKEN, api_id=API_ID, api_hash=API_HASH)
+app = Client("DaisyX", bot_token=TOKEN, api_id=API_ID, api_hash=API_HASH)
 
 def capture_err(func):
     @wraps(func)
