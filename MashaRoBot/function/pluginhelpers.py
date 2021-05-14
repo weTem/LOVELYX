@@ -354,7 +354,7 @@ async def member_permissions(chat_id, user_id):
     return perms
 
 
-  async def current_chat_permissions(chat_id):
+async def current_chat_permissions(chat_id):
     perms = []
     perm = (await pbot.get_chat(chat_id)).permissions
     if perm.can_send_messages:
