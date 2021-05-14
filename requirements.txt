@@ -63,4 +63,3 @@ tswift
 redis
 aiofiles
 better_profanity
-yaml
