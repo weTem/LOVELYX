@@ -18,6 +18,8 @@ from MashaRoBot import EVENT_LOGS, TOKEN, API_ID, API_HASH
 
 app = Client("DaisyX", bot_token=TOKEN, api_id=API_ID, api_hash=API_HASH)
 
+listen = listen
+
 def capture_err(func):
     @wraps(func)
     async def capture(client, message, *args, **kwargs):
