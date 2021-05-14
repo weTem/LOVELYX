@@ -27,11 +27,11 @@ from google_trans_new import google_translator
 from telethon import events
 from telethon.tl.types import ChatBannedRights
 
-from DaisyX import BOT_ID
-from DaisyX.function.telethonbasics import is_admin
-from DaisyX.services.events import register
-from DaisyX.services.mongo import mongodb as db
-from DaisyX.services.telethon import tbot
+from MashaRoBot import BOT_ID
+from MashaRoBot.function.telethonbasics import is_admin
+from MashaRoBot.services.events import register
+from MashaRoBot.services.mongo import mongodb as db
+from MashaRoBot.services.telethon import tbot
 
 translator = google_translator()
 MUTE_RIGHTS = ChatBannedRights(until_date=None, send_messages=False)
