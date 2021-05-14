@@ -93,6 +93,7 @@ if ENV:
     SUPPORT_CHAT = os.environ.get("SUPPORT_CHAT", None)
     SPAMWATCH_SUPPORT_CHAT = os.environ.get("SPAMWATCH_SUPPORT_CHAT", None)
     SPAMWATCH_API = os.environ.get("SPAMWATCH_API", None)
+    REDIS_URL = os.environ.get("REDIS_URL")
     IBM_WATSON_CRED_URL = os.environ.get("IBM_WATSON_CRED_URL", None)
     IBM_WATSON_CRED_PASSWORD = os.environ.get("IBM_WATSON_CRED_PASSWORD", None)
 
@@ -192,13 +193,23 @@ else:
     except:
         sw = None
         LOGGER.warning("Can't connect to SpamWatch!")
-
+        
+REDIS = StrictRedis.from_url(REDIS_URL,decode_responses=True)
+try:
+    REDIS.ping()
+    LOGGER.info("Your redis server is now alive!")
+except BaseException:
+    raise Exception("Your redis server is not alive, please check again.")
+    
+finally:
+   REDIS.ping()
+   LOGGER.info("Your redis server is now alive!")        
 
 updater = tg.Updater(TOKEN, workers=WORKERS, use_context=True)
 telethn = TelegramClient("masha", API_ID, API_HASH)
 pbot = Client("mashapbot", api_id=API_ID, api_hash=API_HASH, bot_token=TOKEN)
 mongo_client = MongoClient(MONGO_DB_URI)
-db = mongo_client.SaitamaRobot
+db = mongo_client.MashaRoBot
 dispatcher = updater.dispatcher
 
 DRAGONS = list(DRAGONS) + list(DEV_USERS)
