@@ -62,4 +62,10 @@ Skem
 tswift
 redis
 aiofiles
+
+#profanity (Credits to Julia)
 better_profanity
+textblob 
+nudepy
+
+motor
