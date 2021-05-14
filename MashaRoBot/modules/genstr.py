@@ -13,7 +13,7 @@ Credits:
 import traceback
 from functools import wraps
 from pyrogram.errors.exceptions.forbidden_403 import ChatWriteForbidden
-from MashaRoBot import LOG_GROUP_ID, TOKEN, API_ID, API_HASH
+from MashaRoBot import EVENT_LOGS, TOKEN, API_ID, API_HASH
 
 app = Client("DaisyX", bot_token=TOKEN, api_id=API_ID, api_hash=API_HASH)
 
@@ -41,7 +41,7 @@ def capture_err(func):
                 ),
             )
             for x in error_feedback:
-                await app.send_message(LOG_GROUP_ID, x)
+                await app.send_message(EVENT_LOGS, x)
             raise err
 
     return capture
