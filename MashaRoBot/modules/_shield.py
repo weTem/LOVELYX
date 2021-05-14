@@ -25,21 +25,21 @@ from google_trans_new import google_translator
 from telethon import events
 from telethon.tl.types import ChatBannedRights
 
-from YoneRobot import BOT_ID
-from YoneRobot.conf import get_int_key, get_str_key
+from MashaRoBot import BOT_ID
+from MashaRoBot.conf import get_int_key, get_str_key
 
 # from YoneRobot.db.mongo_helpers.nsfw_guard import add_chat, get_all_nsfw_chats, is_chat_in_db, rm_chat
-from YoneRobot.pyrogramee.telethonbasics import is_admin
-from YoneRobot.events import register
-from YoneRobot import MONGO_DB_URI 
+from MashaRoBot.pyrogramee.telethonbasics import is_admin
+from MashaRoBot.events import register
+from MashaRoBot import MONGO_DB_URI 
 from pymongo import MongoClient
-from YoneRobot.modules.sql_extended.nsfw_watch_sql import (
+from MashaRoBot.modules.sql_extended.nsfw_watch_sql import (
     add_nsfwatch,
     get_all_nsfw_enabled_chat,
     is_nsfwatch_indb,
     rmnsfwatch,
 )
-from YoneRobot import telethn as tbot
+from MashaRoBot import telethn as tbot
 
 translator = google_translator()
 MUTE_RIGHTS = ChatBannedRights(until_date=None, send_messages=False)
