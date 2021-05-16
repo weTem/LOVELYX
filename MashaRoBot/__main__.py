@@ -82,7 +82,7 @@ PM_START_TEXT = """
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ADD EMCEE TO YOUR GROUP ➕️", url="t.me/Emcee_Bot?startgroup=true"),
+            text="➕️ ADD LOVELY TO YOUR GROUP ➕️", url="t.me/LOVELYR_OBOT?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="ℹ️ABOUT", callback_data="masha_"),
@@ -90,12 +90,12 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="✨EMCEE DEVS✨", url="t.me/Emcee_Devs"),
+            text="✨LOVELY LOGS✨", url="t.me/LOVELY_LOGS"),
         InlineKeyboardButton(
-            text="👥SUPPORT👥", url="https://t.me/Emcee_Support"),
+            text="👥SUPPORT👥", url="https://t.me/ISHQZAADE_0"),
     ],
     [  
-        InlineKeyboardButton(text="❄️EMCEE WEB❄️", url="https://emcee.art.blog/"
+        InlineKeyboardButton(text="LOVELY DEVS", url="https://t.me/LOVELYDEVS"
     ),
     ], 
     
@@ -104,10 +104,10 @@ buttons = [
 
 
 HELP_STRINGS = """
-༆*EMCEE comes with many special features in it*༆
-꧁*CHECK ALL BUTTON BELOW TO EXPLORE EVERY COMMANDS OF EMCEE*꧂
+༆*LOVELY comes with many special features in it*༆
+꧁*CHECK ALL BUTTON BELOW TO EXPLORE EVERY COMMANDS OF LOVELY*꧂
 𖣘 *All commands can either be used with* `/` *or* `!`.
-𖣘 *If you facing any issue or find any bugs in any command then you can report it in @Emcee_Support* [.](https://telegra.ph/file/073b380cf13052e500490.jpg)
+𖣘 *If you facing any issue or find any bugs in any command then you can report it in @LOVELYSUPPORTS* [.](https://telegra.ph/file/bf5222d53da56fe688603.jpg)
 """
 
 
@@ -356,7 +356,7 @@ def Masha_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "masha_":
         query.message.edit_text(
-            text=""" ℹ️ I'm *EMCEE*, a powerful group management bot built to help you manage your group easily.
+            text=""" ℹ️ I'm *LOVELY*, a powerful group management bot built to help you manage your group easily.
                  ❍ I can restrict users.
                  ❍ I can greet users with customizable welcome messages and even set a group's rules.
                  ❍ I have an advanced anti-flood system.
@@ -364,8 +364,8 @@ def Masha_about_callback(update: Update, context: CallbackContext):
                  ❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
                  ❍ I check for admins' permissions before executing any command and more stuffs
                  \n_Emcee's licensed under the GNU General Public License v3.0_
-                 Here is the [💾Repository](https://t.me/Emcee_Support).
-                 If you have any question about Emcee, let us know at @Emceesupport.""",
+                 Here is the [💾Repository](https://t.me/LOVELYSUPPORTS).
+                 If you have any question about Emcee, let us know at @LOVELYSUPPORTS.""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -391,8 +391,8 @@ def Source_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..🤗 I'm *Emcee*
-                 \nHere is the [Source Code](https://t.me/DaisyXNews) .""",
+            text=""" Hi..🤗 I'm *lovely*
+                 \nHere is the [Source Code](https://t.me/LOVELYSUPPORTS) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=False,
             reply_markup=InlineKeyboardMarkup(
