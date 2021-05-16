@@ -439,7 +439,7 @@ __help__ = """
 Note: Special credits goes to Julia project and Friday Userbot
  
 """
-__mod_name__ = "Shield"
+__mod_name__ = "SHIELD"
 
  
 
