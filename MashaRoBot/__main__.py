@@ -76,7 +76,7 @@ def get_readable_time(seconds: int) -> str:
 PM_START_TEXT = """
 `𝙷𝙴𝚈,𝙷𝙸𝙸 𝙸 𝙰𝙼 𝙴𝙼𝙲𝙴𝙴`
 `𝙸'𝙰𝙼 𝙰𝙽 𝙰𝙽𝙸𝙼𝙴 𝚃𝙷𝙴𝙼𝙴𝙳 𝙶𝚁𝙾𝚄𝙿 𝙼𝙰𝙽𝙰𝙶𝙸𝙽𝙶 𝙱𝙾𝚃! 𝙲𝙻𝙸𝙲𝙺` *📚𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂* `𝙱𝚄𝚃𝚃𝙾𝙽 𝙱𝙴𝙻𝙾𝚆 𝚃𝙾 𝙴𝚇𝙿𝙻𝙾𝚁𝙴 𝙼𝙾𝚁𝙴 𝙰𝙱𝙾𝚄𝚃 𝙼𝙴 𝙰𝙽𝙳 𝙼𝚈 𝙵𝚄𝙽𝙲𝚃𝙸𝙾𝙽𝚂.
-**Powered By** @DaisyXNews` [.](https://telegra.ph/file/14870c995b7b3bf2cd6e3.jpg) 
+**Powered By** @shayri_of_loves` [.](https://telegra.ph/file/bf5222d53da56fe688603.jpg) 
 """
 
 buttons = [
