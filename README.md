@@ -4,7 +4,7 @@ EMCEE IS ADVANCE GROUP MANAGER BOT FOR GEEKS
 
 CLICK ON BELOW IMAGE TO DEPLOY ON HEROKU 
 
-[![DEPLOY](https://telegra.ph/file/0ef205e512d6454449b5f.jpg)](https://heroku.com/deploy?template=https://github.com/Aquila-14/EMCEE)
+[![DEPLOY](https://telegra.ph/file/bf5222d53da56fe688603.jpg)](https://heroku.com/deploy?template=https://github.com/Aquila-14/EMCEE)
 
 Keep supporting us 😊
 
