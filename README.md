@@ -1,6 +1,6 @@
-# EMCEE GROUP MANAGER BOT
+# LOVELY GROUP MANAGER BOT
 
-EMCEE IS ADVANCE GROUP MANAGER BOT FOR GEEKS 
+LOVELY IS ADVANCE GROUP MANAGER BOT FOR GEEKS 
 
 CLICK ON BELOW IMAGE TO DEPLOY ON HEROKU 
 
@@ -10,10 +10,10 @@ Keep supporting us 😊
 
 <a href="https://github.com/satyanandatripathi/emcee" alt="GitHub repo size"> <img src="https://img.shields.io/github/repo-size/Aquila-14/emcee" />
 
-<a href="https://t.me/Emcee_Support" alt="Telegram!"> <img src="https://aleen42.github.io/badges/src/telegram.svg" /> 
+<a href="https://t.me/SHAYRI_OF_LOVES" alt="Telegram!"> <img src="https://aleen42.github.io/badges/src/telegram.svg" /> 
 
 Your beloved:-
 
-[EMCEE DEVS](https://t.me/Emcee_Devs)
+[EMCEE DEVS](https://t.me/@LOVELYDEVS)
  
 
