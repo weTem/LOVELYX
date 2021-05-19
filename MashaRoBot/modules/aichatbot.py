@@ -11,12 +11,11 @@ url = "https://acobot-brainshop-ai-v1.p.rapidapi.com/get"
 
 translator = google_translator()
 
-BOT_ID = 1628785224
+BOT_ID = 1777728008
 
 def extract_emojis(s):
     return "".join(c for c in s if c in emoji.UNICODE_EMOJI)
 
-#Chatbot Modules By  @InukaAsith
 
 en_chats = []
 
@@ -112,12 +111,12 @@ async def lycia(client, message):
         result = response.text
         result = result.replace('{"cnt":"', "")
         result = result.replace('"}', "")
-        result = result.replace("Aco", "Emcee")
-        result = result.replace("Eliza", "@Emcee_Bot")
-        result = result.replace("Hi~", "Hello Friend I Am @Emcee_Bot")
-        result = result.replace("My dear great botmaster, Lyciabot Team.", "Made By @Emcee_Devs")
+        result = result.replace("Aco", "Lovely")
+        result = result.replace("Eliza", "@LOVELYR_OBOT")
+        result = result.replace("Hi~", "Hello Friend I Am @LOVELYR_OBOT")
+        result = result.replace("My dear great botmaster, Lyciabot Team.", "Made By @LOVELYDEVS")
         result = result.replace("Have the control right.", "My Father Is @Emcee_Devs")
-        result = result.replace("I was created by Lyciabot Team.", "I was created by @Emcee_Devs Team.")
+        result = result.replace("I was created by Lyciabot Team.", "I was created by @LOVELYDEVS Team.")
         result = result.replace("<a href=\\", "<a href =")
         result = result.replace("<\/a>", "</a>")
         red = result
@@ -185,12 +184,12 @@ async def redaura(client, message):
     result = response.text
     result = result.replace('{"cnt":"', "")
     result = result.replace('"}', "")
-    result = result.replace("Aco", "Emcee")
-    result = result.replace("Eliza", "@Emcee_Bot")
-    result = result.replace("Hi~", "Hello Friend I Am @Emcee_Bot")
-    result = result.replace("My dear great botmaster, Lyciabot Team.", "Made By @Emcee_Devs")
-    result = result.replace("Have the control right.", "My Father Is @Emcee_Devs")
-    result = result.replace("I was created by Lyciabot Team.", "I was created by @Emcee_Devs Team.")
+    result = result.replace("Aco", "Lovely")
+    result = result.replace("Eliza", "@LOVELYR_OBOT")
+    result = result.replace("Hi~", "Hello Friend I Am @LOVELYR_OBOT")
+    result = result.replace("My dear great botmaster, Lyciabot Team.", "Made By @LOVELYDEVS")
+    result = result.replace("Have the control right.", "My Father Is @LOVELYDEVS")
+    result = result.replace("I was created by Lyciabot Team.", "I was created by @LOVELYDEVS Team.")
     result = result.replace("<a href=\\", "<a href =")
     result = result.replace("<\/a>", "</a>")
     red = result
@@ -204,7 +203,7 @@ async def redaura(client, message):
 
 
 @LYCIA.on_message(
-    filters.regex("Emcee|emcee|EMCEE")
+    filters.regex("Lovely|lovely|LOVELY")
     & ~filters.bot
     & ~filters.via_bot
     & ~filters.forwarded
