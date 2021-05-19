@@ -1,4 +1,3 @@
-# Voics Chatbot Module Credits Pranav Ajay 🐰Github = Red-Aura 🐹 Telegram= @madepranav
 # @lyciachatbot support Now
 import os
 import aiofiles
@@ -27,14 +26,14 @@ async def ai_lycia(url):
     return ai_name
 
 
-@LYCIA.on_message(filters.command("Emcee"))
+@LYCIA.on_message(filters.command("Lovely"))
 async def Lycia(_, message):
     if len(message.command) < 2:
         await message.reply_text("Lycia AI Voice Chatbot")
         return
     text = message.text.split(None, 1)[1]
     lycia = text.replace(" ", "%20")
-    m = await message.reply_text("Emcee Is Best...")
+    m = await message.reply_text("Lovely Is Best...")
     try:
         L = await fetch(f"https://api.affiliateplus.xyz/api/chatbot?message={lycia}&botname=Emcee&ownername=Pranav&user=1")
         chatbot = L["message"]
@@ -43,7 +42,7 @@ async def Lycia(_, message):
     except Exception as e:
         await m.edit(str(e))
         return
-    await m.edit("Made By @Emcee_Devs...")
+    await m.edit("Made By @Lovelydevs...")
     LyciaVoice = await ai_lycia(VoiceAi)
     await m.edit("Repyping...")
     await message.reply_audio(audio=LyciaVoice, title=chatbot, performer=name)
