@@ -367,7 +367,7 @@ def user_can_ban(func):
             and user not in [777000, 1087968824]
         ):
             update.effective_message.reply_text(
-                "😹 Sorry You can't do that"
+                "⚓ Sorry You can't do that"
             )
             return ""
         return func(update, context, *args, **kwargs)
@@ -405,4 +405,3 @@ def connection_status(func):
 # Workaround for circular import with connection.py
 from MashaRoBot.modules import connection
 
-connected = connection.connected
