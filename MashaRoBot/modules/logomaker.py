@@ -1,4 +1,4 @@
-#credit - @Simpleboy787
+#credit - @shayri_of_loves
 from MashaRoBot.events import register
 from MashaRoBot import OWNER_ID
 from MashaRoBot import telethn as tbot
@@ -35,13 +35,13 @@ async def lego(event):
     x = (image_widthz-w)/2
     y= ((image_heightz-h)/2+6)
     draw.text((x, y), text, font=font, fill="black", stroke_width=25, stroke_fill="yellow")
-    fname2 = "LogoByEmcee.png"
+    fname2 = "LogoByLovely.png"
     img.save(fname2, "png")
-    await tbot.send_file(event.chat_id, fname2, caption="Created By Emcee✨")
+    await tbot.send_file(event.chat_id, fname2, caption="Created By Lovely✨")
     if os.path.exists(fname2):
             os.remove(fname2)
  except Exception as e:
-   await event.reply(f'Error Report @Emcee_Support, {e}')
+   await event.reply(f'Error Report @LOVELYSUPPORTS, {e}')
 
 
 
@@ -75,13 +75,13 @@ async def lego(event):
     x = (image_widthz-w)/2
     y= ((image_heightz-h)/2+6)
     draw.text((x, y), text, font=font, fill="white", stroke_width=0, stroke_fill="white")
-    fname2 = "LogoByEmcee.png"
+    fname2 = "LogoByLovely.png"
     img.save(fname2, "png")
-    await tbot.send_file(event.chat_id, fname2, caption="Created By Emcee")
+    await tbot.send_file(event.chat_id, fname2, caption="Created By Lovely")
     if os.path.exists(fname2):
             os.remove(fname2)
  except Exception as e:
-   await event.reply(f'Error Report @Emcee_Support, {e}')
+   await event.reply(f'Error Report @LOVELYSUPPORTS, {e}')
 
 file_help = os.path.basename(__file__)
 file_help = file_help.replace(".py", "")
