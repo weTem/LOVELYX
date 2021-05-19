@@ -75,8 +75,8 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 `Hᴇʏ I'ᴍ Lᴏᴠᴇʟʏ`
-`I'ᴀᴍ ᴀɴ ᴀɴɪᴍᴇ ᴛʜᴇᴍᴇᴅ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢɪɴɢ ʀᴏʙᴏᴛ! Cʟɪᴄᴋ` *📚ᴄᴏᴍᴍᴀɴᴅs* `ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ᴛᴏ ᴇxᴏʟᴏʀᴇ ᴍᴏʀᴇ ᴀʙᴏᴜᴛ ᴍᴇ ᴀɴᴅ ᴍʏ ғᴜɴᴄᴛɪᴏɴs.
-**𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲** @shayri_of_loves` [.](https://telegra.ph/file/bf5222d53da56fe688603.jpg) 
+`I'ᴀᴍ ᴀɴ ᴀɴɪᴍᴇ ᴛʜᴇᴍᴇᴅ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢɪɴɢ ʀᴏʙᴏᴛ! Cʟɪᴄᴋ` *📚ᴄᴏᴍᴍᴀɴᴅs*`ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ᴛᴏ ᴇxᴏʟᴏʀᴇ ᴍᴏʀᴇ ᴀʙᴏᴜᴛ ᴍᴇ ᴀɴᴅ ᴍʏ ғᴜɴᴄᴛɪᴏɴs.
+⚡𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲⚡@shayri_of_loves` [.](https://telegra.ph/file/bf5222d53da56fe688603.jpg) 
 """
 
 buttons = [
