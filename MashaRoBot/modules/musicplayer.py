@@ -18,9 +18,9 @@
 
 __mod_name__ = "VC PLAYER"
 __help__ = """
-          <b>》** LOVELYVCPLAYER ** 《</b>
+          <b>》** @Lovelyvcrobot ** 《</b>
             
- EMCEEVCPLAYER plays music in your group's voice chat
+ @Lovelyvcrobot plays music in your group's voice chat
  
  Assistant name >> ꧁ @LOVELYVCBOT ꧂
  
