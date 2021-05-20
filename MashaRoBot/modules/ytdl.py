@@ -128,3 +128,16 @@ async def download_video(v_url):
             caption=ytdl_data["title"],
         )
         os.remove(f"{ytdl_data['id']}.mp4")
+
+mod_name = "YOUTUBE 🎵"    
+
+help = """ 
+Here is help for downloading audio|video from YouTube
+- /ytaudio <link> 
+Example - /ytaudio https://youtu.be/i0_m90T04uw
+
+- /ytvideo <link> 
+Example - /ytvideo https://youtu.be/i0_m90T04uw
+
+🧑‍💻Credit  - @V3DMATOWNER 
+"""
