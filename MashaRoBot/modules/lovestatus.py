@@ -7,5 +7,6 @@ __help__ = """
 
 Here is love sad ,romantic status , poetry , shayri , friendship etc...
 Join [LOVE STATUS❤️](https://t.me/shayri_of_loves) to see our post
-OWNED by   - @V3DMATOWNER 
+
+OWNED by [TUSHAR](https://t.me/V3DMATOWNER)
 """
