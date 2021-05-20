@@ -1,7 +1,7 @@
 #LOVE STATUS AND SHAYRI 
 #OWNED BY TUSHAR
 
-__mod_name__ = "LOVE STATUS❤️"
+__mod_name__ = "LOVE❤️"
 __help__ = """
           ꧁ LOVE IS LYF ❤️꧂
 
