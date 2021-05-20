@@ -1,8 +1,8 @@
 #LOVE STATUS AND SHAYRI 
 #OWNED BY TUSHAR
 
-mod_name = "LOVE STATUS ❤️"    
-help = """ 
+__mod_name__ = "LOVE STATUS❤️"
+__help__ = """
           ꧁ LOVE IS LYF ❤️꧂
 
 Here is love sad ,romantic status , poetry , shayri , friendship etc...
