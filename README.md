@@ -2,9 +2,11 @@
 
 LOVELY IS ADVANCE GROUP MANAGER BOT FOR GEEKS 
 
+#DEPLOY 
+
 CLICK ON BELOW IMAGE TO DEPLOY ON HEROKU 
 
-[![DEPLOY](https://telegra.ph/file/bf5222d53da56fe688603.jpg)](https://heroku.com/deploy?template=https://github.com/Aquila-14/EMCEE)
+[![DEPLOY](https://telegra.ph/file/bf5222d53da56fe688603.jpg)](https://heroku.com/deploy?template=https://github.com/attitudeking1/EMCEE)
 
 Keep supporting us 😊
 
@@ -14,6 +16,6 @@ Keep supporting us 😊
 
 Your beloved:-
 
-[EMCEE DEVS](https://t.me/@LOVELYDEVS)
+[LOVELY DEVS](https://t.me/LOVELYDEVS)
  
 
