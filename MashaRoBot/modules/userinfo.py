@@ -290,7 +290,7 @@ def info(update: Update, context: CallbackContext):
         text += "\n\nThe Disaster level of this person is 'Superior'."
         disaster_level_present = True
     elif user.id in DEV_USERS:
-        text += "\n\nThis user is member of 'Emcee powerhouse'."
+        text += "\n\nThis user is member of 'lovely powerhouse'."
         disaster_level_present = True
     elif user.id in DRAGONS:
         text += "\n\nThe Disaster level of this person is 'Legend'."
@@ -306,7 +306,7 @@ def info(update: Update, context: CallbackContext):
         disaster_level_present = True
 
     if disaster_level_present:
-        text += ' [<a href="https://t.me/EMCEE_UPDATES/3">?</a>]'.format(
+        text += ' [<a href="https://t.me/LOVELYUPDATES/2">?</a>]'.format(
             bot.username
         )
 
