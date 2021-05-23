@@ -50,4 +50,4 @@ __help__ = """
  ❍ /cs*:* Latest live scores from cricinfo
 """
 
-__mod_name__ = "CRICKET"
+__mod_name__ = "CRICKET🏏"
