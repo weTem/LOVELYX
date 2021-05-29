@@ -202,7 +202,7 @@ def new_member(update: Update, context: CallbackContext):
             # Welcome Devs
             elif new_mem.id in DEV_USERS:
                 update.effective_message.reply_text(
-                    "Be Patient! A member of the Emcee powerhouse just joined.",
+                    "Be Patient! A member of the Lovely powerhouse just joined.",
                     reply_to_message_id=reply,
                 )
                 welcome_log = (
