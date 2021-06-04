@@ -86,7 +86,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(text="ℹ️ABOUT", callback_data="masha_"),
-        InlineKeyboardButton(text="📚COMMANDS", callback_data="help_back"),
+        InlineKeyboardButton(text="🆘HELP", callback_data="help_back"),
     ],
     [
         InlineKeyboardButton(
@@ -95,7 +95,7 @@ buttons = [
             text="👥SUPPORT👥", url="https://t.me/ISHQZAADE_0"),
     ],
     [  
-        InlineKeyboardButton(text="LOVELY DEVS", url="https://t.me/LOVELYDEVS"
+        InlineKeyboardButton(text="😈LOVELY DEVS😈", url="https://t.me/LOVELYDEVS"
     ),
     ], 
     [
