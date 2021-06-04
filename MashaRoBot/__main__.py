@@ -96,9 +96,12 @@ buttons = [
     ],
     [  
         InlineKeyboardButton(text="LOVELY DEVS", url="https://t.me/LOVELYDEVS"
-        InlineKeyboardButton(text="❤️LOVE STATUS❤️", url="https://t.me/shayri_of_loves"
     ),
     ], 
+    [
+        InlineKeyboardButton(text="❤️LOVE STATUS❤️", url="https://t.me/shayri_of_loves"
+    ), 
+    ],
     
 ]
 
