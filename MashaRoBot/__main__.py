@@ -76,7 +76,7 @@ def get_readable_time(seconds: int) -> str:
 PM_START_TEXT = """
 Hᴇʏ I'ᴍ Lᴏᴠᴇʟʏ
 I'ᴀᴍ ᴀɴ ᴀɴɪᴍᴇ ᴛʜᴇᴍᴇᴅ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢɪɴɢ ʀᴏʙᴏᴛ! Cʟɪᴄᴋ *📚ᴄᴏᴍᴍᴀɴᴅs* ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ᴛᴏ ᴇxᴏʟᴏʀᴇ ᴍᴏʀᴇ ᴀʙᴏᴜᴛ ᴍᴇ ᴀɴᴅ ᴍʏ ғᴜɴᴄᴛɪᴏɴs.
-⚡𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲⚡@shayri_of_loves [.](https://telegra.ph/file/bf5222d53da56fe688603.jpg) 
+⚡𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲⚡[LOVELY SUPPORT](https://t.me/shayri_of_loves) 😎 [.](https://telegra.ph/file/bf5222d53da56fe688603.jpg) 
 """
 
 buttons = [
@@ -92,7 +92,7 @@ buttons = [
         InlineKeyboardButton(
             text="✨LOVELY LOGS✨", url="t.me/LOVELY_LOGS"),
         InlineKeyboardButton(
-            text="👥SUPPORT👥", url="https://t.me/ISHQZAADE_0"),
+            text="👥SUPPORT👥", url="https://t.me/LOVELYUPDATES"),
     ],
     [  
         InlineKeyboardButton(text="😈LOVELY DEVS😈", url="https://t.me/LOVELYDEVS"
