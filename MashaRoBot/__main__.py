@@ -102,7 +102,10 @@ buttons = [
         InlineKeyboardButton(text="❤️LOVE STATUS❤️", url="https://t.me/shayri_of_loves"
     ), 
     ],
-    
+    [   
+        InlineKeyboardButton(text="🎧VC PLAYER🎧", url="https://telegra.ph/𝔏𝔬𝔳𝔢𝔩𝔶-06-15"
+    ),
+    ],
 ]
 
 
