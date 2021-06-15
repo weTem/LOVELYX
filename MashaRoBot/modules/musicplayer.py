@@ -18,17 +18,17 @@
 
 __mod_name__ = "VC PLAYER🎧"
 __help__ = """
-          <b>》** @Lovelyvcrobot ** 《</b>
+          <b>》** @LOVELYR_OBOT ** 《</b>
             
  @Lovelyvcrobot plays music in your group's voice chat
  
- Assistant name >> ꧁ @LOVELYVCBOT ꧂
+ Assistant name >> ꧁ @LOVELYVC ꧂
  
 <b> Setting up </b>
 1) Make bot admin
 2) Start a voice chat
 3) Try `/play [song name]` for the first time by an admin
-*) If userbot joined enjoy music, If not add @LOVELYVCBOT to your group and retry
+*) If userbot joined enjoy music, If not add @LOVELYVC to your group and retry
 <b> Commands </b>
 =>> Song Playing 🎶
   /play: Play song using youtube music
@@ -46,7 +46,7 @@ __help__ = """
   /playlist: Shows playlist
 =>> More tools 📲
   /admincache: Updates admin info of your group. Try if bot isn't recognize admin
-  /userbotjoin: Invite @LOVELYVCBOT Userbot to your chat
+  /userbotjoin: Invite @LOVELYVC Userbot to your chat
 *Player cmd and all other cmds except /play, /current  and /playlist  are only for admins with manage group
 <b> PLEASE NOTE THIS SERVICE IS UNSTABLE AND CAN BE STOPPED ANYTIME </b>
 """
