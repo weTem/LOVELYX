@@ -89,28 +89,28 @@ Hello I'm 𝕷𝖔𝖛𝖊𝖑𝖞 𝕽𝖔𝖇𝖔𝖙 ,
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ADD LOVELY TO YOUR GROUP ➕️", url="t.me/LOVELYR_OBOT?startgroup=true"),
+            text="➕️ 𝐀𝐝𝐝 𝐋𝐨𝐯𝐞𝐥𝐲 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 ➕️", url="t.me/LOVELYR_OBOT?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="ℹ️ABOUT", callback_data="masha_"),
-        InlineKeyboardButton(text="🆘HELP", callback_data="help_back"),
+        InlineKeyboardButton(text="ℹ️𝐀𝐛𝐨𝐮𝐭", callback_data="masha_"),
+        InlineKeyboardButton(text="🆘𝐇𝐞𝐥𝐩", callback_data="help_back"),
     ],
     [
         InlineKeyboardButton(
-            text="✨LOVELY LOGS✨", url="t.me/LOV3LYLOGS"),
+            text="✨𝐋𝐨𝐯𝐞𝐥𝐲 𝐋𝐨𝐠𝐬✨", url="t.me/LOV3LYLOGS"),
         InlineKeyboardButton(
-            text="👥SUPPORT👥", url="https://t.me/LOVELYUPDATES"),
+            text="👥𝐒𝐮𝐩𝐩𝐨𝐫𝐭👥", url="https://t.me/LOVELYAPPEAL"),
     ],
     [  
-        InlineKeyboardButton(text="😈LOVELY DEVS😈", url="https://t.me/LOVELYDEVS"
+        InlineKeyboardButton(text="😈𝐋𝐨𝐯𝐞𝐥𝐲 𝐃𝐞𝐯𝐬😈", url="https://t.me/LOVELYDEVS"
     ),
     ], 
     [
-        InlineKeyboardButton(text="❤️LOVE STATUS❤️", url="https://t.me/shayri_of_loves"
+        InlineKeyboardButton(text="❤️𝐋𝐨𝐯𝐞 𝐬𝐭𝐚𝐭𝐮𝐬❤️", url="https://t.me/shayri_of_loves"
     ), 
     ],
     [   
-        InlineKeyboardButton(text="🎧VC PLAYER🎧", url="https://telegra.ph/𝔏𝔬𝔳𝔢𝔩𝔶-06-15"
+        InlineKeyboardButton(text="🎧𝐕𝐜 𝐏𝐥𝐚𝐲𝐞𝐫🎧", url="https://telegra.ph/𝔏𝔬𝔳𝔢𝔩𝔶-06-15"
     ),
     ],
 ]
