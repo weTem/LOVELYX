@@ -74,9 +74,16 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-Hᴇʏ I'ᴍ Lᴏᴠᴇʟʏ
-I'ᴀᴍ ᴀɴ ᴀɴɪᴍᴇ ᴛʜᴇᴍᴇᴅ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢɪɴɢ ʀᴏʙᴏᴛ! Cʟɪᴄᴋ *📚ᴄᴏᴍᴍᴀɴᴅs* ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ᴛᴏ ᴇxᴏʟᴏʀᴇ ᴍᴏʀᴇ ᴀʙᴏᴜᴛ ᴍᴇ ᴀɴᴅ ᴍʏ ғᴜɴᴄᴛɪᴏɴs [.](https://telegra.ph/file/787339b6e43109c75a63c.mp4)
-⚡𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲⚡[LOVELY SUPPORT](https://t.me/shayri_of_loves) 😎 [.](https://telegra.ph/file/bf5222d53da56fe688603.jpg) 
+Hello I'm 𝕷𝖔𝖛𝖊𝖑𝖞 𝕽𝖔𝖇𝖔𝖙 ,
+༒︎ I ᴀᴍ ᴍᴜʟᴛɪ ᴛᴀʟᴇɴᴛᴇᴅ ʙᴏᴛ ᴡɪᴛʜ ᴏsᴍ ғᴇᴀᴛᴜʀᴇs[.](https://telegra.ph/file/787339b6e43109c75a63c.mp4)
+
+➪ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴍᴀᴋᴇ ᴀᴅᴍɪɴ ᴛᴏ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴡɪᴛʜ ᴇxᴘʟᴏsɪᴠᴇ.
+
+➪ ᴄᴏɴᴛᴀᴄᴛ ᴍʏ [ᴍᴀsᴛᴇʀ](t.me/TUSHAR204) ғᴏʀ ᴀɴʏ ǫᴜᴇʀʏ ᴀɴᴅ [ᴀᴘᴘᴇᴀʟ](https://t.me/LOVELYAPPEAL) ʜᴇʀᴇ.
+
+➪ ᴄʟɪᴄᴋ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ ʜᴇʟᴘ ᴛᴏ ᴇxᴘʟᴏʀᴇ ᴍᴏʀᴇ ᴀʙᴏᴜᴛ ᴍᴇ ᴀɴᴅ ᴍʏ ғᴇᴀᴛᴜʀᴇs.
+
+➪ Pᴏᴡᴇʀᴇᴅ ʙʏ [𝕷𝖔𝖇𝖊 𝕱𝖆𝖎𝖑𝖚𝖗𝖊](t.me/shayri_of_loves)
 """
 
 buttons = [
