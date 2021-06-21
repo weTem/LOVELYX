@@ -16,7 +16,6 @@
 # You should have received a copy of the GNU Affero General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-__mod_name__ = "VC PLAYER🎧"
 __help__ = """
           <b>》** @LOVELYR_OBOT ** 《</b>
             
@@ -51,3 +50,4 @@ __help__ = """
 <b> PLEASE NOTE THIS SERVICE IS UNSTABLE AND CAN BE STOPPED ANYTIME </b>
 """
 
+__mod_name__ = "VC PLAYER🎧"
