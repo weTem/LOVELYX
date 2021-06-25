@@ -9,4 +9,4 @@ Example - "/ytvideo https://youtu.be/i0_m90T04uw"
 
 SUPPORT [LOVE STATUS❤️](https://t.me/shayri_of_loves
 """
-__mod_name__ = "ʏᴏᴜᴛᴜʙᴇ🎞"
+__mod_name__ = "Yᴏᴜᴛᴜʙᴇ🎞"
