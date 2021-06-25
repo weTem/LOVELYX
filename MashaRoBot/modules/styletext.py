@@ -490,7 +490,7 @@ __help__ = """
  - /latin <text>: latinify your text!
  - /lined <text>: lined your text!
 """
-__mod_name__ = "sᴛʏʟᴇᴛᴇxᴛ😎"
+__mod_name__ = "Sᴛʏʟᴇᴛᴇxᴛ😎"
 
 WEEBIFY_HANDLER = DisableAbleCommandHandler("weebify", weebify)
 BUBBLE_HANDLER = DisableAbleCommandHandler("bubble", bubble)
