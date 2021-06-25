@@ -50,4 +50,4 @@ __help__ = """
 <b> PLEASE NOTE THIS SERVICE IS UNSTABLE AND CAN BE STOPPED ANYTIME </b>
 """
 
-__mod_name__ = "ᴠᴄ ᴘʟᴀʏᴇʀ🎧"
+__mod_name__ = "Vᴄ ᴘʟᴀʏᴇʀ🎧"
