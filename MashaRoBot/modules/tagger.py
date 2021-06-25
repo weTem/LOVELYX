@@ -240,7 +240,7 @@ def untagall(update, context):
         "Successully removed all users from {}'s tag list.".format(chat.title)
     )
         
-__mod_name__ = "ᴛᴀɢɢᴇʀ😈"    
+__mod_name__ = "Tᴀɢɢᴇʀ😈"    
 
 __help__ = """ 
 Tagger is an essential feature to mention all subscribed members in the group. Any chat members can subscribe to tagger.
