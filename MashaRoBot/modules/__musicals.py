@@ -1,4 +1,4 @@
-__mod_name__ = "ᴍᴜsɪᴄ🎶"
+__mod_name__ = "Mᴜsɪᴄ🎶"
 
 __help__ = """
  ❍ /audio <song name>*:* Uploads the Audio in it's best quality available
