@@ -449,7 +449,7 @@ def __stats__():
     )
 
 
-__mod_name__ = "ʙ ʟɪsᴛ⛔️"
+__mod_name__ = "B ʟɪsᴛ⛔️"
 
 __help__ = """
 
