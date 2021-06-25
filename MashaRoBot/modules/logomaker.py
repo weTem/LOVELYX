@@ -93,4 +93,4 @@ __help__ = """
  ❍ /wlogo text :  Create your logo with your fname2
 
  """
-__mod_name__ = "ʟᴏɢᴏ🎗️"
+__mod_name__ = "Lᴏɢᴏ🎗️"
