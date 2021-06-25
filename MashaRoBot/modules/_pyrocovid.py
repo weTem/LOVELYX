@@ -28,4 +28,4 @@ __HELP__ = """
  ❍ /covid <COUNTRY> - To Get Stats of A Single Country.
 """
 
-__mod_name__ = "ᴄᴏᴠɪᴅ🦠"
+__mod_name__ = "Cᴏᴠɪᴅ🦠"
