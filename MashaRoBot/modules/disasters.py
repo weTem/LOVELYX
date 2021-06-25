@@ -664,7 +664,7 @@ dispatcher.add_handler(SUPPORTLIST_HANDLER)
 dispatcher.add_handler(SUDOLIST_HANDLER)
 dispatcher.add_handler(DEVLIST_HANDLER)
 
-__mod_name__ = "sᴜᴘᴇʀ ᴜsᴇʀ⚡"
+__mod_name__ = "Sᴜᴘᴇʀ ᴜsᴇʀ⚡"
 __handlers__ = [
     SUDO_HANDLER,
     SUPPORT_HANDLER,
