@@ -1,4 +1,3 @@
-#credit - @shayri_of_loves
 from MashaRoBot.events import register
 from MashaRoBot import OWNER_ID
 from MashaRoBot import telethn as tbot
@@ -37,11 +36,11 @@ async def lego(event):
     draw.text((x, y), text, font=font, fill="black", stroke_width=25, stroke_fill="yellow")
     fname2 = "LogoByLovely.png"
     img.save(fname2, "png")
-    await tbot.send_file(event.chat_id, fname2, caption="Created By Lovely✨")
+    await tbot.send_file(event.chat_id, fname2, caption="Made By @LOVELYR_OBOT")
     if os.path.exists(fname2):
             os.remove(fname2)
  except Exception as e:
-   await event.reply(f'Error Report @LOVELYSUPPORTS, {e}')
+   await event.reply(f'Error Report @KoraSupport, {e}')
 
 
 
@@ -75,9 +74,9 @@ async def lego(event):
     x = (image_widthz-w)/2
     y= ((image_heightz-h)/2+6)
     draw.text((x, y), text, font=font, fill="white", stroke_width=0, stroke_fill="white")
-    fname2 = "LogoByLovely.png"
+    fname2 = "LogoByYone.png"
     img.save(fname2, "png")
-    await tbot.send_file(event.chat_id, fname2, caption="Created By Lovely")
+    await tbot.send_file(event.chat_id, fname2, caption="Made By @LOVELYR_OBOT")
     if os.path.exists(fname2):
             os.remove(fname2)
  except Exception as e:
@@ -89,8 +88,6 @@ file_helpo = file_help.replace("_", " ")
 
 
 __help__ = """
- ❍ /logo text :  Create your logo with your name 
- ❍ /wlogo text :  Create your logo with your fname2
-
+ ❍ /logo text :  Create your logo with your name
  """
-__mod_name__ = "Lᴏɢᴏ🎗️"
+__mod_name__ = "Logo"
