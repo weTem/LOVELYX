@@ -19,8 +19,8 @@ Your beloved:-
 [LOVELY DEVS](https://t.me/LOVELYDEVS)
 
 #Owner
-[![Tushar](https://telegra.ph/file/2fee58297ffd8632f49e9.jpg)(https://telegram.me/TUSHAR204)
+[![Tushar](https://telegra.ph/file/2fee58297ffd8632f49e9.jpg)](https://telegram.me/TUSHAR204)
 
 BEST CHANNEL FOR LOVE STATUS AND SHAYRI CLICK ON BELOW PAGE TO JOIN 🤗
  
-[![LOVE SHAYRI](https://telegra.ph/file/1664ecfc1e06715344d32.jpg)(https://telegram.me/SHAYRI_OF_LOVES)
+[![LOVE SHAYRI](https://telegra.ph/file/1664ecfc1e06715344d32.jpg)](https://telegram.me/SHAYRI_OF_LOVES)
