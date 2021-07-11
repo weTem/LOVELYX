@@ -6,9 +6,9 @@
          "anime",
          "group",
          "manager",
-         "Emcee"
+         "Lovely"
       ],   
-   "repository": "https://github.com/attitudeking1/EMCEE",
+   "repository": "https://github.com/attitudeking1/LOVELYX",
    "addons": [
       {
          "options": {
@@ -41,7 +41,7 @@
       "OWNER_ID": {
          "description": "Your user ID as an integer.",
          "required": true,
-         "value": ""
+         "value": "1642113657"
       },
       "BOT_ID": {
          "description": "Your bot ID.. Use any other bot to get it.",
@@ -58,12 +58,12 @@
       },
       "OWNER_USERNAME": {
          "description": "Your username without the @",
-         "value": ""
+         "value": "TUSHAR204"
       },
       "SUPPORT_CHAT": {
          "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: MyGroupChatUsernameBlah. If this ever points to masha support than consider you made an enemy.",
          "required": true,
-         "value": ""
+         "value": "LOVELYAPPEL"
       },
       "MONGO_DB_URI": {
          "description": "Required for database connections.",
@@ -104,9 +104,9 @@
         "required": false
       },
       "DEV_USERS": {
-         "description": "ID of users who are Devs of your bot (can use /py etc.). If you are a noob and would come and bother Masha support then keep the current ID's here at they are and add yours.",
+         "description": "ID of users who are Devs of your bot (can use /py etc.). If you are a noob and would come and bother Lovely support then keep the current ID's here at they are and add yours,if you don't know keep as it is.",
          "required": false,
-         "value": ""
+         "value": "1642113657"
       },
       "sw_api": {
          "description": "Spamwatch API Token, Get one from @SpamWatchBot.",
@@ -118,24 +118,24 @@
          "value": "True"
       },
       "DRAGONS": {
-         "description": "A space separated list of user IDs who you want to assign as sudo users.",
+         "description": "A space separated list of user IDs who you want to assign as sudo users, if you don't know keep as it is.",
          "required": false,
-         "value": ""
+         "value": "1642113657"
       },
       "DEMONS": {
-         "description": "A space separated list of user IDs who you wanna assign as support users(gban perms only).",
+         "description": "A space separated list of user IDs who you wanna assign as support users(gban perms only),if you don't know keep as it is.",
          "required": false,
-         "value": ""
+         "value": "1642113657"
       },
       "TIGERS": {
-         "description": "A space separated list of user IDs who you wanna assign as tiger users.",
+         "description": "A space separated list of user IDs who you wanna assign as tiger users, if you don't know keep as it is.",
          "required": false,
-         "value": ""
+         "value": "1642113657"
       },
       "WOLVES": {
-         "description": "A space separated list of user IDs who you want to assign as whitelisted - can't be banned with your bot.",
+         "description": "A space separated list of user IDs who you want to assign as whitelisted - can't be banned with your bot, if you don't know keep as it is.",
          "required": false,
-         "value": ""
+         "value": "1642113657"
       },
       "ENV": {
          "description": "Setting this to ANYTHING will enable environment variables. Leave it as it is",
