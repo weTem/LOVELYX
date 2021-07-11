@@ -6,7 +6,7 @@ LOVELY IS ADVANCE GROUP MANAGER BOT FOR GEEKS
 
 CLICK ON BELOW IMAGE TO DEPLOY ON HEROKU 
 
-[![DEPLOY](https://telegra.ph/file/bf5222d53da56fe688603.jpg)](https://heroku.com/deploy?template=https://github.com/attitudeking1/L-V3LY)
+[![DEPLOY](https://telegra.ph/file/002151a1eb0040d0b7b90.jpg)](https://heroku.com/deploy?template=https://github.com/attitudeking1/LOVELYX)
 
 Keep supporting us 😊
 
