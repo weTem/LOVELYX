@@ -10,7 +10,7 @@ from MashaRoBot import (
     DEMONS,
     TIGERS,
     WOLVES,
-    SUDO_USERS
+    SUDO_USERS,
     dispatcher,
 )
 
