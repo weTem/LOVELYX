@@ -62,6 +62,11 @@ if ENV:
     except ValueError:
         raise Exception("Your tiger users list does not contain valid integers.")
 
+    try:
+        SUDO_USERS = set(int(x) for x in Config.SUDO_USERS or [])
+    except ValueError:
+        raise Exception("Your sudo users list does not contain valid integers.")
+
     INFOPIC = bool(os.environ.get("INFOPIC", False))
     EVENT_LOGS = os.environ.get("EVENT_LOGS", None)
     WEBHOOK = bool(os.environ.get("WEBHOOK", False))
@@ -138,6 +143,11 @@ else:
         TIGERS = set(int(x) for x in Config.TIGERS or [])
     except ValueError:
         raise Exception("Your tiger users list does not contain valid integers.")
+       
+    try:
+        SUDO_USERS = set(int(x) for x in Config.SUDO_USERS or [])
+    except ValueError:
+        raise Exception("Your sudo users list does not contain valid integers.")
 
     EVENT_LOGS = Config.EVENT_LOGS
     WEBHOOK = Config.WEBHOOK
@@ -218,6 +228,7 @@ DEV_USERS = list(DEV_USERS)
 WOLVES = list(WOLVES)
 DEMONS = list(DEMONS)
 TIGERS = list(TIGERS)
+SUDO_USERS = list(SUDO_USERS)
 
 # Load at end to ensure all prev variables have been set
 from MashaRoBot.modules.helper_funcs.handlers import (
