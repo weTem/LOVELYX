@@ -63,7 +63,7 @@ if ENV:
         raise Exception("Your tiger users list does not contain valid integers.")
 
     try:
-        SUDO_USERS = set(int(x) for x in Config.SUDO_USERS or [])
+        SUDO_USERS = set(int(x) for x in os.environ.get("SUDO_USERS", "").split())
     except ValueError:
         raise Exception("Your sudo users list does not contain valid integers.")
 
