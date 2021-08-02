@@ -11,6 +11,7 @@ from MashaRoBot import (
     DEMONS,
     TIGERS,
     WOLVES,
+    SUDO_USERS,
     dispatcher,
 )
 from MashaRoBot.modules.helper_funcs.chat_status import (
