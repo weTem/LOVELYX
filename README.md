@@ -24,3 +24,23 @@ Your beloved:-
 BEST CHANNEL FOR LOVE STATUS AND SHAYRI CLICK ON BELOW PAGE TO JOIN 🤗
  
 [![LOVE SHAYRI](https://telegra.ph/file/1664ecfc1e06715344d32.jpg)](https://telegram.me/SHAYRI_OF_LOVES)
+
+
+## CREDITS
+
+- MAIN DEV [Mr-Dark-Prince](https://github.com/Mr-Dark-Prince)
+
+▪️ [PaulSonOfLars](https://github.com/PaulSonOfLars/tgbot)
+▪️ [Saitama](https://github.com/AnimeKaizoku)
+▪️ [Loli-Killer](https://github.com/Loli-Killer)
+▪️ [RealAkito](https://github.com/RealAkito)
+▪️ [MrYacha](https://github.com/MrYacha)
+▪️ [Shreyansh](https://github.com/okay-retard)
+▪️ [Ayush](https://github.com/MissJuliaRobot/MissJuliaRobot)
+▪️ [Inuka Asith](https://github.com/inukaasith)
+▪️ [Legendx](https://github.com/LEGENDXOP)
+▪️ [Amarnath c](https://github.com/Amarnathcdj)
+▪️ [Thehamkercat](https://github.com/thehamkercat)
+▪️ [DragSama](https://github.com/DragSama)
+▪️ [Shrimadhav](https://github.com/SpEcHiDe)
+▪️ [Ayra Hikari](https://github.com/AyraHikari)
