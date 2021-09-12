@@ -1,6 +1,7 @@
 future
 emoji
 lxml
+gogoanime-api
 wget
 gtts
 beautifulsoup4
@@ -45,7 +46,7 @@ youtube-dl
 youtube_search
 asyncio
 dateparser==1.0.0
-pymongo
+pymongo==3.11.0
 motor
 dnspython
 secureme
