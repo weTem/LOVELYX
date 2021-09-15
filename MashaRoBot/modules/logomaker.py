@@ -90,7 +90,7 @@ async def lego(event):
     pointsize = 500
     fillcolor = "gold"
     shadowcolor = "blue"
-    font = ImageFont.truetype(".//resources/Chopsic.otf", 330)
+    font = ImageFont.truetype("./MashaRoBot/resources/Chopsic.otf", 330)
     w, h = draw.textsize(text, font=font)
     h += int(h*0.21)
     image_width, image_height = img.size
@@ -98,15 +98,13 @@ async def lego(event):
     x = (image_widthz-w)/2
     y= ((image_heightz-h)/2+6)
     draw.text((x, y), text, font=font, fill="black", stroke_width=25, stroke_fill="yellow")
-    fname2 = "LogoByLovely"
-
-.png"
+    fname2 = "LogoByInnexia.png"
     img.save(fname2, "png")
     await tbot.send_file(event.chat_id, fname2, caption="💕 Made By @LOVELYR_OBOT Support @LOVELYAPPEAL")
     if os.path.exists(fname2):
             os.remove(fname2)
  except Exception as e:
-   await event.reply(f'Error Report @LovelyAppeal, {e}')
+   await event.reply(f'Error Report @LOVELYAPPEAL, {e}')
 
 
 
@@ -146,7 +144,7 @@ async def lego(event):
     if os.path.exists(fname2):
             os.remove(fname2)
  except Exception as e:
-   await event.reply(f'Error Report @LovelyAppeal, {e}')
+   await event.reply(f'Error Report @LOVYAPPEAL, {e}')
 
 file_help = os.path.basename(__file__)
 file_help = file_help.replace(".py", "")
@@ -156,5 +154,6 @@ file_helpo = file_help.replace("_", " ")
 __help__ = """
  ❍ /logo text :  Create your logo with your name
  ❍ /wlogo text :  Create your logo with your name
-"""
+
+ """
 __mod_name__ = "Lᴏɢᴏ😍"
