@@ -98,7 +98,7 @@ async def lego(event):
     x = (image_widthz-w)/2
     y= ((image_heightz-h)/2+6)
     draw.text((x, y), text, font=font, fill="black", stroke_width=25, stroke_fill="yellow")
-    fname2 = "LogoByLovely
+    fname2 = "LogoByLovely"
 
 .png"
     img.save(fname2, "png")
